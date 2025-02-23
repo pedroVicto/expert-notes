@@ -41,7 +41,7 @@ export function NewNoteCard({onNoteCreated}: NewNoteCardProps) {
         <Dialog.Root>
             <Dialog.Trigger className='rounded-md flex flex-col bg-slate-700 text-left p-5 gap-5'>
                 <span className='text-sm font-medium text-slate-200'>Adicionar nota</span>
-                <p className='text-sm leading-6 text-slate-500'>Grave uma nota em áudio para ser convertida em texto</p>
+                <p className='text-sm leading-6 text-slate-500'>Comece escrevendo algo importante</p>
             </Dialog.Trigger>
 
             <Dialog.Portal>
